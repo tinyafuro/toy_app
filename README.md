@@ -21,5 +21,25 @@ Things you may want to cover:
 
 * Deployment instructions
 
+* Git Hub Code
+  $ git init
+  $ git add -A
+  $ git commit -m "Finish toy app"
+  $ git status
+  $ git log
+  $ git remote add origin git@github.com:tinyafuro/toy_app.git
+  $ git remote -v
+  $ git remote rm origin
+  $ git push -u origin master
+
+  $ heroku login
+  $ heroku create
+  $ git push heroku master
+  $ heroku run rails db:migrate
+  $ heroku open
+
+
+
+
 * ...
 # toy_app
